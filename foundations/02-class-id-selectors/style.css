@@ -1,0 +1,18 @@
+.odd-numbered-elements {
+    background-color: lightcoral;
+    font-family: 'Verdana', 'DejaVu Sans', 'sans-serif';
+}
+
+/* differs from their solution in which two classes are utilized to isolate the element, as where nth-of-type is used */
+.odd-numbered-elements:nth-of-type(2) {
+    font-size: 24px;
+}
+
+#id-two {
+    color: blue;
+    font-size: 36px;
+}#id-four {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
